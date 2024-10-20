@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="radio-buttons">
+        <label>
+          <input type="radio" name="search-criteria" value="product_name" checked>
+          Поиск по названию
+        </label>
+        <label>
+          <input type="radio" name="search-criteria" value="product_description">
+          Поиск по описанию
+        </label>
+        <label>
+          <input type="radio" name="search-criteria" value="product_price">
+          Поиск по цене 
+        </label>
+        <label>
+          <input type="radio" name="search-criteria" value="store_name">
+          Поиск по названию 
+        </label>
+        <label>
+          <input type="radio" name="search-criteria" value="store_address">
+          Поиск по адресу 
+        </label>
+      </div>
+      
+      <input type="text" id="search-input" placeholder="Введите запрос для поиска">
+      
+      <div id="results"></div>
+      
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
